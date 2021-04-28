@@ -62,6 +62,26 @@ if (isset($_POST['sair'])) {
 
     <!-- Begin page content -->
     <main>
+        <table class="container">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="container">
+                            <h1 class="display-4">Olá, você pode mudar o jogo!</h1>
+                            <p class="lead">A pandemia do novo coronavírus revelou um ignorado cenário de desigualdade. Pensando
+                                nisso, você, mais do que nunca, é peça fundamental para fazer a diferença na vida de algum
+                                estudante.</p>
+                            <hr class="my-4">
+                            <p>Caso deseje e possa, clique no botão abaixo e faça uma doação.
+                            </p>
+                            <a class="btn btn-success btn-lg" href="donate.php" role="button">Faça uma doação</a>
+                        </div>
+                    </td>
+                    <td><img src="media/indexgif.gif" width="100%" alt="Estudantes na Pandemia"></td>
+                </tr>
+            </tbody>
+        </table>
+
         <div class="jumbotron">
             <div class="container">
                 <h1 class="display-4">Olá, você pode mudar o jogo!</h1>
