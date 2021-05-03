@@ -62,7 +62,7 @@ if (isset($_POST['sair'])) {
 
     <!-- Begin page content -->
     <main>
-        <table class="container">
+        <!-- <table class="container">
             <tbody>
                 <tr>
                     <td>
@@ -80,8 +80,8 @@ if (isset($_POST['sair'])) {
                     <td><img src="media/indexgif.gif" width="100%" alt="Estudantes na Pandemia"></td>
                 </tr>
             </tbody>
-        </table>
-
+        </table>-->
+        <div class = "container"><img src="media/indexgif.gif" display= "block" margin-left= "auto" margin-right= "auto" width="100%" alt="Estudantes na Pandemia"></div>
         <div class="jumbotron">
             <div class="container">
                 <h1 class="display-4">Olá, você pode mudar o jogo!</h1>
