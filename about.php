@@ -63,7 +63,7 @@ if (isset($_POST['sair'])) {
     <!-- Begin page content -->
     <main>
         <div class="container">
-            <img src="media/about.png" id="donateImage" />
+            <img src="media/sobre.png" id="donateImage" />
         </div>
 
         <!-- Cards -->

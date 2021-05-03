@@ -65,7 +65,7 @@ if(isset($_POST['sair'])) {
     <main>
         <!-- Cards -->
         <div class="container">
-            <img src="media/donate.png" id="donateImage" />
+            <img src="media/doe.png" id="donateImage" />
 
             <div class="options row row-cols-1 row-cols-md-4">
                 <div class="input-group col mb-3">
