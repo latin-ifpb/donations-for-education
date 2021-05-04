@@ -161,7 +161,7 @@ if (isset($_POST['sair'])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script>
         $(".fixed-top").add(window).on('resize load click', function(e) {
-            $("main").css("padding-top", ($(".fixed-top").height()) + "px");
+            $("main").css("padding-top", ($(".fixed-top").height() + 50) + "px");
         });
     </script>
 </body>
