@@ -37,14 +37,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Donations for Education</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="sortcut icon" href="../media/bitcoin.ico" type="image/x-icon" />
+    <link rel="sortcut icon" href="../media/moeda.ico" type="image/x-icon" />
 </head>
 
 <body>
     <header>
         <!-- Navigation bar -->
         <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm fixed-top">
-            <h5 class="my-0 mr-md-auto font-weight-normal"><img src="../media/bitcoin.ico" width="5%" /> <a href="index.php"><b>Donations for Education</b></a></h5>
+            <h5 class="my-0 mr-md-auto font-weight-normal"><img src="../media/moeda.ico" width="10%" /> <a href="index.php"><b>Donations for Education</b></a></h5>
             <nav class="my-2 my-md-0 mr-md-3">
                 <a class="p-2 text-dark" href="../index.php">Início</a>
                 <a class="p-2 text-dark" href="../about.php">Sobre</a>

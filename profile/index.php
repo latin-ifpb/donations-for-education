@@ -35,7 +35,7 @@ header('location:edit.php');
     <link rel="stylesheet" href="../css/perfil.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="sortcut icon" href="../media/bitcoin.ico" type="image/x-icon" />
+    <link rel="sortcut icon" href="../media/moeda.ico" type="image/x-icon" />
 
 </head>
 
@@ -43,7 +43,7 @@ header('location:edit.php');
     <header>
         <!-- Navigation bar -->
         <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm fixed-top">
-            <h5 class="my-0 mr-md-auto font-weight-normal"><img src="../media/bitcoin.ico" width="5%" /> <a href="../index.php"><b>Donations for Education</b></a></h5>
+            <h5 class="my-0 mr-md-auto font-weight-normal"><img src="../media/moeda.ico" width="10%" /> <a href="../index.php"><b>Donations for Education</b></a></h5>
             <nav class="my-2 my-md-0 mr-md-3">
                 <a class="p-2 text-dark" href="../index.php">Início</a>
                 <a class="p-2 text-dark" href="../about.php">Sobre</a>

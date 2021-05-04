@@ -14,7 +14,7 @@ if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true
     $redirect = "profile/index.php";
 }
 
-if(isset($_POST['sair'])) {
+if (isset($_POST['sair'])) {
     $donor = new Donor($mysql);
     $donor->sair();
 }
@@ -65,8 +65,7 @@ if(isset($_POST['sair'])) {
     <main>
         <!-- Cards -->
         <div class="container">
-            <img src="media/doe.png" id="donateImage" />
-
+            <img src="media/doe.png" id="donateImage" alt="Passo a passo para doação transformadora"/>
             <div class="options row row-cols-1 row-cols-md-4">
                 <div class="input-group col mb-3">
                     <select class="custom-select" id="etnia_cor" onchange="pagination()">

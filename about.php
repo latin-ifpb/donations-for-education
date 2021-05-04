@@ -63,12 +63,83 @@ if (isset($_POST['sair'])) {
     <!-- Begin page content -->
     <main>
         <div class="container">
-            <img src="media/sobre.png" id="donateImage" />
+            <img src="media/sobre.png" id="donateImage" alt="Estudantes e Logotipo do Projeto"/>
         </div>
 
         <!-- Cards -->
         <div class="container about">
-            <h2>Donations for Education</h2>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="media/Donations Parceria.png" width="95%" alt="Parcerias e Objetivos do Donations for Education">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title">Donations for Education</h2>
+                            <p class="card-text">O projeto Donations for Educations consiste no registro de doações para estudantes do Instituto Federal de Educação, Ciência e Tecnologia da Paraíba (IFPB), campus Campina Grande, com o intuito de arrecadar doações a fim de que cada estudante possa atingir sua meta e, consequentemente, adquirir um equipamento ou serviço de internet. Desse modo, melhorará as condições que subsidiem o processo educacional neste contexto de pandemia, ocasionada pelo novo Coronavírus. Com esse cenário, as aulas presenciais foram substituídas por aulas on-line. Entretanto, muitos alunos se encontram em condições vulneráveis para adquirir computadores e um serviço de internet adequado, o que o prejudica e torna o cenário educacional brasileiro cada vez mais desigual.</p>
+                            <p class="card-text">Pensando nisso, esse projeto se configura em uma forma de você poder investir na educação diretamente. Para isso, é necessário ir à página “Doe” e escolher um estudante que receberá sua contribuição para atingir sua respectiva meta. No card de cada estudante, ficará disponível o quanto já foi arrecadado e a meta dele!. Esse projeto de pesquisa foi desenvolvido com a tecnologia Blockchain, a qual funciona como uma rede de blocos em cadeia, onde as informações são armazenadas de maneira segura, transparente e confiável. Dessa forma, cada doação é registrada, assim como quem a realizou e para qual estudante a quantia foi direcionada, com o intuito de transparecer segurança e confiabilidade.</p>
+                            <p class="card-text">Além disso, o projeto contribui para o cumprimento do 4º e 10º Objetivos do Desenvolvimento Sustentável, dos 17 objetivos da Agenda 2030 da Organização das Nações Unidas (ONU), no tocante à Educação de Qualidade e à Redução das Desigualdades, respectivamente. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Pandemia</h2>
+                    <p class="card-text">Em março de 2020, os alunos de todo Brasil precisaram modificar suas rotinas, de modo que a sala de aula, os colegas de classe, o trajeto de sua casa para escola tiveram que ser deixados de lado para serem substituídos por uma tela digital. Isso aconteceu a fim de evitar a propagação do novo Coronavírus que, atualmente, atingiu a marca de 160 mil mortes, segundo a Secretaria Estadual da Saúde. Acompanhando os rumos da saúde, segundo a Organização das Nações Unidas para a Educação, a Ciência e a Cultura (UNESCO), a pandemia da COVID-19 impactou a educação de mais de 1,5 bilhão de estudantes em 188 países, o que representa cerca de 91% do total de estudantes no planeta.</p>
+                    <p class="card-text">Sob essa perspectiva, a educação foi impactada, principalmente, devido à falta de inclusão digital entre professores e alunos para o acesso às aulas do Ensino à Distância (EAD), que conta com aulas on-line em salas de aula virtuais. Contudo, segundo a pesquisa do Instituto Brasileiro de Geografia e Estatística (IBGE), apenas 57% da população do nosso país possui um computador em condições de executar softwares mais recentes, ou seja, essenciais para a educação on-line. Nessa perspectiva, outro estudo realizado em 2018, a Pesquisa TIC Domicílio, aponta que mais de 30% dos lares no Brasil não possuem acesso à internet, um serviço que é praticamente indispensável para o ensino remoto. Sendo assim, por falta de condições, muitos alunos ficaram sem condições de assistirem às aulas, devido à falta de acesso a equipamentos e serviços de internet, tornando-se, cada vez mais, um impasse para uma educação igualitária a todos os estudantes brasileiros.</p>
+                </div>
+                <img src="media/pandemia.png" width="50%" class="card-img-bottom" alt="Realidade de Pandemia">
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Blockchain</h2>
+                    <p class="card-text">A tecnologia Blockchain consiste em um livro de razão pública, na qual se registra uma transação com moeda virtual, geralmente é o Bitcoin, de forma imutável e segura. Isso garante uma transparência nas transações que foram realizadas, uma vez que mostra quem realizou a transação, quem a recebeu, a quantia envolvida, bem como o horário na qual foi realizada. Nesse caso, os registros das doações serão feitas utilizando a tecnologia Blockchain, para conferir transparência ao serviço e torná-lo mais confiável para você.</p>
+                    <p class="card-text">Para armazenar os dados, cada bloco armazena os registros de transações em um determinado tempo e se ligam aos demais blocos anteriores. Esses blocos são dependentes um dos outros e formam uma cadeia, por isso, o nome Blockchain, do inglês, Block = Bloco e Chain = Cadeia. Essa rede blockchain é formada por mineradores, que verificam e registram as transações no bloco, pois emprestam poder computacional para a rede, em troca de moedas digitais.</p>
+                    <p class="card-text">Entretanto, essa transação só pode acontecer se uma maioria simples da rede concordar com a legitimidade dela, ou seja, só é efetuada caso o consenso da rede aprovar. Em relação as moedas do Bitcoin, por exemplo, esse consenso é medido por meio do poder computacional. Portanto, nota-se que Blockchain é uma tecnologia distribuída, a qual registra transações de moedas virtuais em uma cadeia de blocos, que podem contar com a participação honesta de cada participante para assegurar o registro de informações confiáveis, imutáveis transparentes.</p>
+                    <img src="media/blockchain.png" class="card-img-top" alt="Rede de Blockchain">
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Integrantes</h2>
+                <div class="team card-group">
+                    <div class="person col mb-4">
+                        <div class="circle">
+                            <a href="https://github.com/catarinaramalho" target="_blank"><img src="media/team/Catarina.png" class="circleImage" /></a>
+                        </div>
+                        <h5>Catarina</h5>
+                    </div>
+                    <div class="person col mb-4">
+                        <div class="circle">
+                            <a href="https://github.com/gildercia" target="_blank"><img src="media/team/Gildércia.png" class="circleImage" /></a>
+                        </div>
+                        <h5>Gildércia</h5>
+                    </div>
+                    <div class="person col mb-4">
+                        <div class="circle">
+                            <a href="https://github.com/joaovitorsl" target="_blank"><img src="media/team/João.png" class="circleImage" /></a>
+                        </div>
+                        <h5>João Vitor</h5>
+                    </div>
+                    <div class="person col mb-4">
+                        <div class="circle">
+                            <a href="https://github.com/TavaresJonatas" target="_blank"><img src="media/team/Jônatas.png" class="circleImage" /></a>
+                        </div>
+                        <h5>Jônatas</h5>
+                    </div>
+                    <div class="person col mb-4">
+                        <div class="circle">
+                            <a href="https://github.com/katyusco" target="_blank"><img src="media/team/Katyusco.png" class="circleImage" /></a>
+                        </div>
+                        <h5>Katyusco</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- <h2>Donations for Education</h2>
             <p>O projeto Donations for Educations consiste no registro de doações para estudantes do Instituto Federal de Educação, Ciência e Tecnologia da Paraíba (IFPB), campus Campina Grande, com o intuito de arrecadar doações a fim de que cada estudante possa atingir sua meta e, consequentemente, adquirir um equipamento ou serviço de internet. Desse modo, melhorará as condições que subsidiem o processo educacional neste contexto de pandemia, ocasionada pelo novo Coronavírus. Com esse cenário, as aulas presenciais foram substituídas por aulas on-line. Entretanto, muitos alunos se encontram em condições vulneráveis para adquirir computadores e um serviço de internet adequado, o que o prejudica e torna o cenário educacional brasileiro cada vez mais desigual.</p>
             <p>Pensando nisso, esse projeto se configura em uma forma de você poder investir na educação diretamente. Para isso, é necessário ir à página “Doe” e escolher um estudante que receberá sua contribuição para atingir sua respectiva meta. No card de cada estudante, ficará disponível o quanto já foi arrecadado e a meta dele!. Esse projeto de pesquisa foi desenvolvido com a tecnologia Blockchain, a qual funciona como uma rede de blocos em cadeia, onde as informações são armazenadas de maneira segura, transparente e confiável. Dessa forma, cada doação é registrada, assim como quem a realizou e para qual estudante a quantia foi direcionada, com o intuito de transparecer segurança e confiabilidade.</p>
             <h2>Pandemia</h2>
@@ -77,43 +148,8 @@ if (isset($_POST['sair'])) {
             <h2>Blockchain</h2>
             <p>A tecnologia Blockchain consiste em um livro de razão pública, na qual se registra uma transação com moeda virtual, geralmente é o Bitcoin, de forma imutável e segura. Isso garante uma transparência nas transações que foram realizadas, uma vez que mostra quem realizou a transação, quem a recebeu, a quantia envolvida, bem como o horário na qual foi realizada. Nesse caso, os registros das doações serão feitas utilizando a tecnologia Blockchain, para conferir transparência ao serviço e torná-lo mais confiável para você.</p>
             <p>Para armazenar os dados, cada bloco armazena os registros de transações em um determinado tempo e se ligam aos demais blocos anteriores. Esses blocos são dependentes um dos outros e formam uma cadeia, por isso, o nome Blockchain, do inglês, Block = Bloco e Chain = Cadeia. Essa rede blockchain é formada por mineradores, que verificam e registram as transações no bloco, pois emprestam poder computacional para a rede, em troca de moedas digitais.</p>
-            <p>Entretanto, essa transação só pode acontecer se uma maioria simples da rede concordar com a legitimidade dela, ou seja, só é efetuada caso o consenso da rede aprovar. Em relação as moedas do Bitcoin, por exemplo, esse consenso é medido por meio do poder computacional. Portanto, nota-se que Blockchain é uma tecnologia distribuída, a qual registra transações de moedas virtuais em uma cadeia de blocos, que podem contar com a participação honesta de cada participante para assegurar o registro de informações confiáveis, imutáveis transparentes.</p>
+            <p>Entretanto, essa transação só pode acontecer se uma maioria simples da rede concordar com a legitimidade dela, ou seja, só é efetuada caso o consenso da rede aprovar. Em relação as moedas do Bitcoin, por exemplo, esse consenso é medido por meio do poder computacional. Portanto, nota-se que Blockchain é uma tecnologia distribuída, a qual registra transações de moedas virtuais em uma cadeia de blocos, que podem contar com a participação honesta de cada participante para assegurar o registro de informações confiáveis, imutáveis transparentes.</p>-->
 
-            <h2>Integrantes</h2>
-            <div class="team card-group">
-                <div class="person col mb-4">
-                    <div class="circle">
-                        <a href="https://github.com/catarinaramalho" target="_blank"><img src="media/team/Catarina.png" class="circleImage" /></a>
-                    </div>
-                    <h5>Catarina</h5>
-                </div>
-                <div class="person col mb-4">
-                    <div class="circle">
-                        <a href="https://github.com/gildercia" target="_blank"><img src="media/team/Gildércia.png" class="circleImage" /></a>
-                    </div>
-                    <h5>Gildércia</h5>
-                </div>
-                <div class="person col mb-4">
-                    <div class="circle">
-                        <a href="https://github.com/joaovitorsl" target="_blank"><img src="media/team/João.png" class="circleImage" /></a>
-                    </div>
-                    <h5>João Vitor</h5>
-                </div>
-                <div class="person col mb-4">
-                    <div class="circle">
-                        <a href="https://github.com/TavaresJonatas" target="_blank"><img src="media/team/Jônatas.png" class="circleImage" /></a>
-                    </div>
-                    <h5>Jônatas</h5>
-                </div>
-                <div class="person col mb-4">
-                    <div class="circle">
-                        <a href="https://github.com/katyusco" target="_blank"><img src="media/team/Katyusco.png" class="circleImage" /></a>
-                    </div>
-                    <h5>Katyusco</h5>
-                </div>
-            </div>
-        </div>
-    </main>
 
     <!-- Footer -->
     <footer class="navbar justify-content-center">
