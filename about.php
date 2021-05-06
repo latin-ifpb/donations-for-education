@@ -108,31 +108,31 @@ if (isset($_POST['sair'])) {
                         <div class="circle">
                             <a href="https://github.com/catarinaramalho" target="_blank"><img src="media/team/Catarina.png" class="circleImage" /></a>
                         </div>
-                        <h5>Catarina</h5>
+                        <h5>Catarina Ramalho</h5>
                     </div>
                     <div class="person col mb-4">
                         <div class="circle">
                             <a href="https://github.com/gildercia" target="_blank"><img src="media/team/Gildércia.png" class="circleImage" /></a>
                         </div>
-                        <h5>Gildércia</h5>
+                        <h5>Gildércia Araújo</h5>
                     </div>
                     <div class="person col mb-4">
                         <div class="circle">
                             <a href="https://github.com/joaovitorsl" target="_blank"><img src="media/team/João.png" class="circleImage" /></a>
                         </div>
-                        <h5>João Vitor</h5>
+                        <h5>João Vitor Silva</h5>
                     </div>
                     <div class="person col mb-4">
                         <div class="circle">
                             <a href="https://github.com/TavaresJonatas" target="_blank"><img src="media/team/Jônatas.png" class="circleImage" /></a>
                         </div>
-                        <h5>Jônatas</h5>
+                        <h5>Jônatas Tavares</h5>
                     </div>
                     <div class="person col mb-4">
                         <div class="circle">
                             <a href="https://github.com/katyusco" target="_blank"><img src="media/team/Katyusco.png" class="circleImage" /></a>
                         </div>
-                        <h5>Katyusco</h5>
+                        <h5>Katyusco Santos</h5>
                     </div>
                 </div>
             </div>
